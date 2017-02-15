@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EntradaCine</string>
+
+    <array name="arraySpinner">
+        <item>Resident Evil: The Final Chapter</item>
+        <item>LEGO Batman: La película (The LEGO Batman Movie) </item>
+        <item>King Kong vs Godzilla</item>
+        <item>Guerra Mundial Z 2</item>
+        <item>Capitán América: Civil War</item>
+        <item>Transformers: la Era de la Extinción</item>
+    </array>
+</resources>
