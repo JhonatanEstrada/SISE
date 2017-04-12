@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RecyclerDemo</string>
+    <string name="tvNombreUsuarioCard">David Porras Cordova</string>
+    <string name="tvFirstLikeCard">Hace</string>
+    <string name="tvLastLikeCard">dias</string>
+    <string name="tvLastNumberLikeCard">Me gusta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="tvTimeLikeCard">4</string>
+    <string name="tvNumberLikeCard">10</string>
+</resources>

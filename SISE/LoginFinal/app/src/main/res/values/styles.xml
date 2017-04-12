@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="myStyleButton" parent="AlertDialog.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/textWhite</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="myStyleEditText" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/mySizeEditText</item>
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:textColorHint">@color/textWhite</item>
+        <item name="colorAccent">@color/textWhite</item>
+        <item name="colorControlNormal">@color/textWhite</item>
+        <item name="colorControlHighlight">@color/textWhite</item>
+
+        <item name="android:textColorPrimary">@color/textWhite</item>
+        <item name="colorControlActivated">@color/textWhite</item>
+
+    </style>
+
+    <style name="myStyleEditTextCreate" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/mySizeEditText</item>
+        <item name="android:textColor">@color/textBlack</item>
+        <item name="android:textColorHint">@color/textBlack</item>
+        <item name="colorAccent">@color/textBlack</item>
+        <item name="colorControlNormal">@color/textBlack</item>
+        <item name="colorControlHighlight">@color/textBlack</item>
+    </style>
+</resources>

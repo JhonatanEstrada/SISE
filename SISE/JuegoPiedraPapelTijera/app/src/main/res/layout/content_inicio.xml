@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.iscodem.juegopiedrapapeltijera.InicioActivity"
+    tools:showIn="@layout/activity_inicio"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center_horizontal"
+           android:layout_margin="@dimen/activity_vertical_margin">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/piedra_min"
+               android:id="@+id/imgPiedraMin"
+
+               />
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/papel_min"
+               android:id="@+id/imgPapelMin"
+               />
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/tijera_min"
+               android:id="@+id/imgTijeraMin"
+               />
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center_horizontal"
+           android:layout_margin="@dimen/activity_vertical_margin">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/incognita"
+               android:id="@+id/imgUsuario"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="VS"
+               android:textSize="80dp"
+               android:gravity="center"
+               android:layout_gravity="center"
+               />
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/incognita"
+               android:id="@+id/imgSistema"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center"
+           android:gravity="center">
+           <Button
+               android:layout_width="160dp"
+               android:layout_height="wrap_content"
+               android:text="Jugar"
+               android:textSize="20dp"
+               android:layout_gravity="center_horizontal"
+               android:id="@+id/btnJugar"
+               />
+           <Button
+               android:layout_width="160dp"
+               android:layout_height="wrap_content"
+               android:text="Reiniciar"
+               android:textSize="20dp"
+               android:layout_gravity="center_horizontal"
+               android:id="@+id/btnReiniciar"
+               />
+       </LinearLayout>
+
+   </LinearLayout>
+</RelativeLayout>

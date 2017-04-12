@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shared</string>
+    <string name="edtEmail">Ingrese Email</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="edtUser">Ingrese usuario</string>
+    <string name="btnRecuperar">Recuperar</string>
+    <string name="btnReiniciar">Reiniciar</string>
+</resources>

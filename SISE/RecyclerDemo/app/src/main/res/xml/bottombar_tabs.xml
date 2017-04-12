@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_search"
+        icon="@drawable/img_search"
+        title="Buscar"
+        barColorWhenSelected="@color/colorWhite" />
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/img_home"
+        title="Inicio"
+        barColorWhenSelected="@color/colorWhite" />
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/img_profile"
+        title="Mi Perfil"
+        barColorWhenSelected="@color/colorWhite" />
+
+</tabs>

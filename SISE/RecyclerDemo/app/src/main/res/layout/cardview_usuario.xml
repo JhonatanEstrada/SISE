@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardUsuario"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cardUsuarioHeight"
+    cardview:cardCornerRadius="@dimen/cardUsuarioCornerRadius"
+    android:layout_margin="3dp"
+    xmlns:cardview="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgFotoUsuarioCard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cardUsuarioHeight"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_sise"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:paddingBottom="@dimen/paddingUsuarioCard"
+            android:paddingLeft="@dimen/paddingUsuarioCard">
+
+            <TextView
+                android:id="@+id/tvNombreUsuarioCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvNombreUsuarioCard"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/tvSizeNameUsuarioCard"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvFirstLikeCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvFirstLikeCard"
+                    android:textSize="@dimen/tvSizeFirstLikeCard"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:id="@+id/tvTimeLikeCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tvSizeFirstLikeCard"
+                    android:textColor="@color/colorWhite"
+                    android:padding="@dimen/tvPaddingFirstLikeCard"
+                    android:text="@string/tvTimeLikeCard"/>
+                <TextView
+                    android:id="@+id/tvLastLikeCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tvSizeFirstLikeCard"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/tvLastLikeCard"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/chkNumberLikeCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_selector"
+                    />
+                <TextView
+                    android:id="@+id/tvNumberLikeCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tvSizeFirstLikeCard"
+                    android:textColor="@color/colorWhite"
+                    android:padding="@dimen/tvPaddingFirstLikeCard"
+                    android:text="@string/tvNumberLikeCard"/>
+                <TextView
+                    android:id="@+id/tvLastNumberLikeCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvLastNumberLikeCard"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/tvSizeFirstLikeCard"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

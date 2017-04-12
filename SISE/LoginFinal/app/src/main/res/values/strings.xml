@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LoginFinal</string>
+    <string name="action_settings">Settings</string>
+    <string name="edtUsuarioLogin">Ingrese su usuario</string>
+    <string name="edtUsuarioPassword">Ingrese su contraseña</string>
+    <string name="btnLogin">Ingrese</string>
+    <string name="tvMensajeUsuarioNuevo">No posee cuenta de inicio? | </string>
+    <string name="tvCrearUsuario">Registrese aquí.</string>
+    <string name="edtUsuarioCreateLogin">Usuario</string>
+    <string name="edtUsuarioCreateEmail">Email</string>
+    <string name="edtUsuarioCreateNombres">Nombres</string>
+    <string name="edtUsuarioCreateApellidos">Apellidos</string>
+    <string name="edtUsuarioCreateDNI">DNI</string>
+    <string name="edtUsuarioCreatePassword">Password</string>
+    <string name="btnCrearCuenta">Crear cuenta</string>
+
+    <string name="tituloToolbarCrearCuenta">Crear Cuenta</string>
+    <string name="tvBienvenidoMinisterio">Bienvenidos al Ministerio de Educación</string>
+
+    <string-array name="usuarios">
+        <item>dporras</item>
+        <item>jorge</item>
+        <item>javier</item>
+    </string-array>
+</resources>

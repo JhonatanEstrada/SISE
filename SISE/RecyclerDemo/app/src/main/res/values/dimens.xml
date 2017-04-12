@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardUsuarioHeight">200dp</dimen>
+    <dimen name="cardUsuarioCornerRadius">4dp</dimen>
+    <dimen name="marginUsuarioCard">16dp</dimen>
+    <dimen name="paddingUsuarioCard">16dp</dimen>
+    <dimen name="tvSizeNameUsuarioCard">25sp</dimen>
+    <dimen name="tvSizeFirstLikeCard">16sp</dimen>
+    <dimen name="tvPaddingFirstLikeCard">5sp</dimen>
+    <dimen name="altoBottombar">70dp</dimen>
+</resources>
